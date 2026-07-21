@@ -243,7 +243,7 @@ vars:
   ninja_sha512: c0b401b4db91a2eea01a474ee979b2c6f1daa97b4c8d1f856871ce5f6d567c4b26d6246bc57e2a5f914329302abcd9c00ab0d4394a25f2ad502b6b00a07903d2
 
   # renovate: datasource=github-releases extractVersion=^openssl-(?<version>.*)$ depName=openssl/openssl
-  openssl_version: 3.6.3
+  openssl_version: 4.0.1
   openssl_sha256: 243a86649cf6f23eeb6a2ff2456e09e5d77dd9018a54d3d96b0c6bdd6ba6c7f1
   openssl_sha512: 4179ad56f285fd27a1c7b294472afdca588e915d4f8a9610e461f34f0678004aebe32e88434ae536a63a7c9aff6607702a3b341e2faacb7899c27d6def4cc92d
 
@@ -264,7 +264,7 @@ vars:
 
   # perl uses even numbered minor versions for stable releases - https://www.cpan.org/src/README.html
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=Perl/perl5
-  perl_version: 5.42.2
+  perl_version: 5.44.0
   perl_sha256: 0a585eeb9e363c0f80482ddb3571625250c2c86aeb408853e8ea50805cfb14bb
   perl_sha512: 3c77dbede22df1a7ab3714c7dc6d675f14cb99b084fcc4e4d9b65aed1a080ac4d5ecf2cbf4759b2565f6452e52b337633f870dbcbf152dc66833cfe71f04fffc
 
