@@ -79,3 +79,7 @@ spec:
     ca-certificates:
       defaultRegistryUrlTemplate: https://curl.se/docs/caextract.html
       format: html
+---
+kind: common.ReKres
+spec:
+  kresImage: ghcr.io/nirvati-os/kres:latest
