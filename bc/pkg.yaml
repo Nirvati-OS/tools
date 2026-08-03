@@ -7,7 +7,7 @@ dependencies:
   - stage: perl
 steps:
   - sources:
-      - url: https://ftpmirror.gnu.org/gnu/bc/bc-{{ .bc_version }}.tar.gz
+      - url: https://ftp.fau.de/gnu/bc/bc-{{ .bc_version }}.tar.gz
         destination: bc.tar.gz
         sha256: {{ .bc_sha256 }}
         sha512: {{ .bc_sha512 }}
